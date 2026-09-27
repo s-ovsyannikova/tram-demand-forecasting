@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.joblib
+.pytest_cache/
+subm/inference_*.csv
+subm/INFERENCE_*.csv
+subm/ml_error_*.csv

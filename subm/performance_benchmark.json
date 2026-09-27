@@ -1,0 +1,59 @@
+{
+  "scope": "forecast engine only; file loading included separately; no HTTP",
+  "generated_at": "2026-09-27T14:35:40+0300",
+  "system": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.21",
+    "logical_cpus": 8,
+    "total_memory_gb": 15.803630828857422
+  },
+  "initial_process": {
+    "rss_mb": 33.51171875,
+    "peak_rss_mb": 33.515625
+  },
+  "model_loading": {
+    "wall_seconds": 2.8975682999007404,
+    "rss_mb": 231.78515625,
+    "rss_growth_mb": 193.22265625,
+    "peak_rss_mb": 409.1484375,
+    "cpu_seconds": 2.234375,
+    "average_cpu_cores": 0.7711207359897405,
+    "host_cpu_percent": 9.639009199871756,
+    "two_vcpu_percent": 38.556036799487025,
+    "four_vcpu_percent": 19.278018399743512
+  },
+  "single_request": {
+    "request_definition": "one route-day with 24 hourly predictions",
+    "requests": 200,
+    "wall_seconds": 34.92341400007717,
+    "requests_per_second": 5.726816971546884,
+    "latency_p50_ms": 172.5155001040548,
+    "latency_p95_ms": 228.725700173527,
+    "latency_p99_ms": 298.0540001299232,
+    "rss_mb": 233.109375,
+    "peak_rss_mb": 409.1484375,
+    "cpu_seconds": 33.765625,
+    "average_cpu_cores": 0.9668477715244388,
+    "host_cpu_percent": 12.085597144055486,
+    "two_vcpu_percent": 48.34238857622194,
+    "four_vcpu_percent": 24.17119428811097
+  },
+  "batch_inference": {
+    "batch_shape": "9 routes x 61 days",
+    "batch_repeats": 100,
+    "route_days": 54900,
+    "hourly_predictions": 1317600,
+    "wall_seconds": 21.04088870016858,
+    "route_days_per_second": 2609.205380168193,
+    "hourly_predictions_per_second": 62620.92912403664,
+    "mean_batch_latency_ms": 210.4088870016858,
+    "rss_mb": 233.265625,
+    "rss_growth_mb": 0.2109375,
+    "peak_rss_mb": 409.1484375,
+    "cpu_seconds": 24.328125,
+    "average_cpu_cores": 1.1562308677487128,
+    "host_cpu_percent": 14.452885846858909,
+    "two_vcpu_percent": 57.811543387435634,
+    "four_vcpu_percent": 28.905771693717817
+  }
+}

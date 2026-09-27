@@ -1,0 +1,22 @@
+event_id;route;start_date;end_date;day_filter;start_hour;end_hour;status;severity;source_url;note
+medvedkovo_short_1;17;2025-04-05;2025-04-20;weekend;0;23;shortened;0.55;https://transport.mos.ru/mostrans/all_news/123857;Weekend short turn at Selskohozyaystvennaya
+medvedkovo_closed;17;2025-04-26;2025-04-27;weekend;0;23;suspended;1.00;https://transport.mos.ru/mostrans/all_news/124110;Route 17 did not operate on the affected weekend
+kalanchyovskaya_works_7;7;2025-07-10;2025-08-12;all;0;23;shortened;0.70;https://transport.mos.ru/mostrans/all_news/125272;Route 7 short turn at Sokolniki
+kalanchyovskaya_works_50;50;2025-07-10;2025-08-12;all;0;23;rerouted;0.60;https://transport.mos.ru/mostrans/all_news/125272;Routes 13 and 50 operated as combined 13+50
+palikha_weekends;7;2025-08-16;2025-08-31;weekend;0;23;shortened;0.25;https://transport.mos.ru/mostrans/all_news/125846;Weekend short turn at Novoslobodskaya
+protopopovsky_weekends_7;7;2025-09-06;2025-10-26;weekend;0;23;shortened;0.35;https://t.me/s/DtOperativno/22627;Weekend short turn at Kalanchevskaya
+protopopovsky_weekends_50;50;2025-09-06;2025-10-26;weekend;0;23;suspended;1.00;https://t.me/s/DtOperativno/22627;Route 50 did not operate on weekends
+ostankino_nights_11;11;2025-07-18;2025-09-18;all;23;23;late_night;0.50;https://transport.mos.ru/mostrans/all_news/125448;After 23:30 route shortened at Selskohozyaystvennaya
+ostankino_nights_17;17;2025-07-18;2025-09-18;all;23;23;late_night;0.50;https://transport.mos.ru/mostrans/all_news/125448;After 23:30 route shortened at Selskohozyaystvennaya
+ostankino_nights_25;25;2025-07-18;2025-09-18;all;23;23;late_night;0.50;https://transport.mos.ru/mostrans/all_news/125448;After 23:30 route shortened at Selskohozyaystvennaya
+ostankino_night_sep24_11;11;2025-09-24;2025-09-24;all;0;0;late_night;0.50;https://transport.mos.ru/mostrans/all_news/126461;After 00:20 route shortened at Selskohozyaystvennaya
+ostankino_night_sep24_17;17;2025-09-24;2025-09-24;all;0;0;late_night;0.50;https://transport.mos.ru/mostrans/all_news/126461;After 00:20 route shortened at Selskohozyaystvennaya
+ostankino_night_sep24_25;25;2025-09-24;2025-09-24;all;0;0;late_night;0.50;https://transport.mos.ru/mostrans/all_news/126461;After 00:20 route shortened at Selskohozyaystvennaya
+protopopovsky_nights_7;7;2025-09-12;2025-10-27;all;23;23;late_night;0.50;https://transport.mos.ru/mostrans/all_news/126306;After 23:00 route short turn at Kalanchevskaya
+protopopovsky_nights_50;50;2025-09-12;2025-10-27;all;23;23;late_night;0.50;https://transport.mos.ru/mostrans/all_news/126306;After 23:00 route short turn at Kalanchevskaya
+protopopovsky_late_oct_7;7;2025-10-28;2025-11-04;all;22;23;late_night;0.60;https://transport.mos.ru/mostrans/all_news/126945;After 22:00 route short turn at Kalanchevskaya
+protopopovsky_late_oct_50;50;2025-10-28;2025-11-04;all;22;23;late_night;0.60;https://transport.mos.ru/mostrans/all_news/126945;After 22:00 route short turn at Kalanchevskaya
+komsomolskaya_nights_7;7;2025-11-05;2025-12-12;all;23;23;late_night;0.50;https://transport.mos.ru/mostrans/all_news/127065;After 23:20 route short turn at Sokolniki
+komsomolskaya_nights_50;50;2025-11-05;2025-12-12;all;23;23;late_night;0.50;https://transport.mos.ru/mostrans/all_news/127065;After 23:20 route short turn at Kalanchevskaya
+energy_weekends_7;7;2025-12-13;2025-12-31;weekend;23;23;late_night;0.60;https://transport.mos.ru/mostrans/all_news/127620;Weekend service after 23:00 only to Sokolniki
+energy_weekends_50;50;2025-12-13;2025-12-31;weekend;23;23;late_night;0.60;https://transport.mos.ru/mostrans/all_news/127620;Weekend service after 23:00 only to Kalanchevskaya
