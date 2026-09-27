@@ -5,3 +5,5 @@ __pycache__/
 subm/inference_*.csv
 subm/INFERENCE_*.csv
 subm/ml_error_*.csv
+subm/READY_TO_UPLOAD_DECOMPOSED_ML.csv
+docs/

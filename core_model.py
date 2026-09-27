@@ -13,17 +13,29 @@ def dates_between(start, end):
 
 
 def load_history():
+    """Load, type-check, and merge the supplied hourly target tables.
+
+    Returns:
+        Mapping ``(route, date, hour)`` to non-negative boarding counts.
+
+    Raises:
+        ValueError: If a key is duplicated or a route, hour, or target value is
+            outside the accepted domain.
+    """
     history = {}
     for filename in ("labels_day_train.csv", "labels_day_test.csv"):
         with (ROOT / "dataset" / "labels" / filename).open(encoding="utf-8-sig") as stream:
 
             for row in csv.DictReader(stream, delimiter=";"):
-                key = (int(row["route"]), date.fromisoformat(row["date"]), int(row["hour"]))
+                route = int(row["route"])
+                hour = int(row["hour"])
+                key = (route, date.fromisoformat(row["date"]), hour)
                 value = float(row["boardings"])
 
-                if key in history or not math.isfinite(value) or value < 0:
+                if (key in history or route <= 0 or not 0 <= hour <= 23
+                        or not math.isfinite(value) or value < 0):
                     raise ValueError(f"Duplicate key or invalid target: {key}")
-                
+
                 history[key] = value
     return history
 
